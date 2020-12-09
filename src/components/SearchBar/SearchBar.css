@@ -1,0 +1,18 @@
+.searchBar__form{
+    position: relative;
+    width: 100%;
+    max-width: 305px;
+    margin: 3rem auto;
+    font-size: 32px;
+
+}
+
+.searchBar__btn{
+    /* width: 60%; */
+}
+
+.searchBar__formControl input{
+    font-size: 20px;
+}
+
+

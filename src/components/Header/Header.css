@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #18B2D8;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header p{
+    margin-right: 20px;
+    color: white;
+    width: auto;
+    font-size: 1.1rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: +2px;
+    white-space: nowrap;
+}

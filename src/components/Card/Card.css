@@ -1,0 +1,73 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    background-color: #F6F5FA;
+    border-radius: 20px;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row; 
+    padding: 2rem;
+    margin: 0;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.card__info{
+    align-self: flex-start;
+}
+
+.card__icon{
+    align-self: center;
+}
+
+.card__degSymbol{
+    font-size: 3.125rem;
+}
+
+.card__temperature{
+    color: #333333;
+    font-size: 3.75rem;
+    /* margin: .5rem 0; */
+    text-align: left;
+}
+
+.card__description{
+    color: #333333;
+    font-size: 1.875rem;
+    letter-spacing: +.5px;
+    /* margin: .5rem 0; */
+    text-align: left;
+}
+
+.card__date{
+    color: #333333;
+    font-size: 1rem;
+    letter-spacing: +1px; 
+    text-align: left;
+}
+
+.card__icon img{
+    width:50%;
+}
+
+@media only screen and (max-width: 889px){
+    .card{
+        flex-direction: column;
+        top:57%
+    }
+
+    .card__icon img{
+        width:30%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card__icon img{
+        width:40%;
+    }
+    
+}
